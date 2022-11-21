@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8E1CDEA7292A29D100EF95D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEA6292A29D100EF95D0 /* main.swift */; };
+		8E1CDEB0292A2B0900EF95D0 /* Realestate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEAF292A2B0900EF95D0 /* Realestate.swift */; };
+		8E1CDEB2292A2B2900EF95D0 /* Apartments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEB1292A2B2900EF95D0 /* Apartments.swift */; };
+		8E1CDEB4292A2B6D00EF95D0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEB3292A2B6D00EF95D0 /* Storage.swift */; };
+		8E1CDEB6292A324C00EF95D0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEB5292A324C00EF95D0 /* Product.swift */; };
+		8E1CDEB9292BBBDF00EF95D0 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEB8292BBBDF00EF95D0 /* Shop.swift */; };
+		8E1CDEBE292BC2ED00EF95D0 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEBD292BC2ED00EF95D0 /* Products.swift */; };
+		8E1CDEC0292BE1B000EF95D0 /* ClothingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEBF292BE1B000EF95D0 /* ClothingStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		8E1CDEA3292A29D100EF95D0 /* hw-2-month-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw-2-month-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1CDEA6292A29D100EF95D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8E1CDEAF292A2B0900EF95D0 /* Realestate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realestate.swift; sourceTree = "<group>"; };
+		8E1CDEB1292A2B2900EF95D0 /* Apartments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartments.swift; sourceTree = "<group>"; };
+		8E1CDEB3292A2B6D00EF95D0 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		8E1CDEB5292A324C00EF95D0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8E1CDEB8292BBBDF00EF95D0 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		8E1CDEBD292BC2ED00EF95D0 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		8E1CDEBF292BE1B000EF95D0 /* ClothingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,31 @@
 			isa = PBXGroup;
 			children = (
 				8E1CDEA6292A29D100EF95D0 /* main.swift */,
+				8E1CDEB7292BBB7000EF95D0 /* hw-2 */,
+				8E1CDEAE292A2ADD00EF95D0 /* hw-1 */,
 			);
 			path = "hw-2-month-2";
+			sourceTree = "<group>";
+		};
+		8E1CDEAE292A2ADD00EF95D0 /* hw-1 */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CDEAF292A2B0900EF95D0 /* Realestate.swift */,
+				8E1CDEB1292A2B2900EF95D0 /* Apartments.swift */,
+				8E1CDEB3292A2B6D00EF95D0 /* Storage.swift */,
+				8E1CDEB5292A324C00EF95D0 /* Product.swift */,
+			);
+			path = "hw-1";
+			sourceTree = "<group>";
+		};
+		8E1CDEB7292BBB7000EF95D0 /* hw-2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CDEB8292BBBDF00EF95D0 /* Shop.swift */,
+				8E1CDEBD292BC2ED00EF95D0 /* Products.swift */,
+				8E1CDEBF292BE1B000EF95D0 /* ClothingStore.swift */,
+			);
+			path = "hw-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1CDEA7292A29D100EF95D0 /* main.swift in Sources */,
+				8E1CDEB4292A2B6D00EF95D0 /* Storage.swift in Sources */,
+				8E1CDEB6292A324C00EF95D0 /* Product.swift in Sources */,
+				8E1CDEC0292BE1B000EF95D0 /* ClothingStore.swift in Sources */,
+				8E1CDEBE292BC2ED00EF95D0 /* Products.swift in Sources */,
+				8E1CDEB9292BBBDF00EF95D0 /* Shop.swift in Sources */,
+				8E1CDEB0292A2B0900EF95D0 /* Realestate.swift in Sources */,
+				8E1CDEB2292A2B2900EF95D0 /* Apartments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
