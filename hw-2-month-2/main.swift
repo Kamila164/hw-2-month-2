@@ -25,13 +25,20 @@ import Foundation
 //storage1.getInfo()
 
 
+var clothingStore1 = ClothingStore(shopName: "Магазин одежды", square: 25.3, location: "Токтогула 211", openingHours: "10:00 - 19:00", products: clothing1)
 
-var shop = Shop(shopName: "Frunze", square: 123, location: "fdvfv", openingHours: "hgnhmn", products: product1)
+var clothing1 = Products(productName: "Джинсы", quantity: "6", cost: "1100")
+var clothing2 = Products(productName: "Свитер", quantity: "12", cost: "650")
 
-var product1 = Products(productName: "Cola", quantity: 12, cost: 45)
-var product2 = Products(productName: "Fanta", quantity: 3, cost: 40)
+clothingStore1.addProducts(clothing1)
+clothingStore1.addProducts(clothing2)
+clothingStore1.getInfo()
 
-shop.addProducts(product1)
-shop.addProducts(product2)
+var autopartsStore1 = AutopartsStore(shopName: "Магазин автозапчастей", square: 18.45, location: "Горького 18", openingHours: "8:00 - 18:00", products: autoparts1)
 
-shop.getInfo()
+var autoparts1 = Products(productName: "Шины", quantity: "4", cost: "8100")
+var autoparts2 = Products(productName: "Антифриз", quantity: "2", cost: "1100")
+
+autopartsStore1.addProducts(autoparts1)
+autopartsStore1.addProducts(autoparts2)
+autopartsStore1.getInfo()

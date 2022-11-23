@@ -1,6 +1,6 @@
 import Foundation
 
-class ClothingStore: Shop{
+class AutopartsStore: Shop{
     override func getInfo() {
         var productName = ""
         var quantity = ""

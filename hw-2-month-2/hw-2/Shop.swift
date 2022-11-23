@@ -18,9 +18,21 @@ class Shop{
     func addProducts(_ model: Products){
         products.append(model)
     }
-
+        
     
     func getInfo(){
-        print("\(shopName) \nПлощадь магазина - \(square) \nНаходиться по адресу: \(location), Часы работы: \(openingHours) \nТовары - \(products)")
+        var productName = ""
+        var quantity = ""
+        var cost = ""
+        var info = ""
+        for item in products{
+            productName += item.productName
+            quantity += item.quantity
+            cost += item.cost
+            info += "\(productName) - \(quantity) Цена: \(cost)\n"
+            
+        }
+        print("\(shopName) \nПлощадь магазина - \(square) \nНаходиться по адресу: \(location), Часы работы: \(openingHours) \nТовары: \n\(info)")
     }
+
 }

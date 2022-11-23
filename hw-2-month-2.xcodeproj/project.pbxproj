@@ -15,6 +15,7 @@
 		8E1CDEB9292BBBDF00EF95D0 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEB8292BBBDF00EF95D0 /* Shop.swift */; };
 		8E1CDEBE292BC2ED00EF95D0 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEBD292BC2ED00EF95D0 /* Products.swift */; };
 		8E1CDEC0292BE1B000EF95D0 /* ClothingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEBF292BE1B000EF95D0 /* ClothingStore.swift */; };
+		8E1CDEC3292E2BA900EF95D0 /* AutopartsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CDEC2292E2BA900EF95D0 /* AutopartsStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		8E1CDEB8292BBBDF00EF95D0 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		8E1CDEBD292BC2ED00EF95D0 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		8E1CDEBF292BE1B000EF95D0 /* ClothingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingStore.swift; sourceTree = "<group>"; };
+		8E1CDEC2292E2BA900EF95D0 /* AutopartsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutopartsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				8E1CDEB8292BBBDF00EF95D0 /* Shop.swift */,
 				8E1CDEBD292BC2ED00EF95D0 /* Products.swift */,
 				8E1CDEBF292BE1B000EF95D0 /* ClothingStore.swift */,
+				8E1CDEC2292E2BA900EF95D0 /* AutopartsStore.swift */,
 			);
 			path = "hw-2";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1CDEC3292E2BA900EF95D0 /* AutopartsStore.swift in Sources */,
 				8E1CDEA7292A29D100EF95D0 /* main.swift in Sources */,
 				8E1CDEB4292A2B6D00EF95D0 /* Storage.swift in Sources */,
 				8E1CDEB6292A324C00EF95D0 /* Product.swift in Sources */,
